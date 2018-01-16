@@ -16,9 +16,8 @@ namespace WelcomeApp
 
         protected void btnGreeting_Click(object sender, EventArgs e)
         {
-            string greeting = "";
-            greeting = "Hello, " + txtName.Text + "!";
-            lblName.Text = greeting;
+            string greeting = "HELLO!";
+            lblWelcome.Text = greeting;
         }
     }
 }
